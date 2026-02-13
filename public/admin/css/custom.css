@@ -1,0 +1,116 @@
+.testimonial-content {
+  max-width: 400px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.about-content {
+  max-width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.image-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.image-col {
+  flex: 1;
+  min-width: 200px;
+}
+
+.service-card i,
+.service-card img {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.contact_list {
+  max-width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#faqNotifications {
+  max-height: 250px;
+  overflow-y: auto;
+  white-space: normal;
+}
+
+.center {
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a,
+.pagination span {
+  color: #007bff;
+  /* Bootstrap blue */
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pagination a:hover {
+  background-color: #ddd;
+}
+
+.pagination .active {
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+}
+
+#changePasswordCard {
+  max-width: 450px;
+  margin: auto;
+  margin-top: 20px;
+  /* border: 1px solid #ddd; */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#changePasswordHeader {
+  text-align: center;
+  background-color: blue;
+  color: white;
+  border-radius: 10px 10px 0 0;
+  /* margin-top: 20px; */
+}
+
+#changePassword {
+  display: flex;
+  margin-left: 120px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: green;
+}
+
+#changePassword:hover {
+  background-color: darkgreen;
+  color: white;
+  border: 1px solid darkgreen;
+}
+
+.bi-arrow-left-circle {
+  color: blue;
+  transition: all 0.3s ease-in-out;
+}
+
+.bi-arrow-left-circle:hover {
+  color: blueviolet;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}

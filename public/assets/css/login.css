@@ -1,0 +1,76 @@
+body {
+  background-color: #f5f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+.login-card h2 {
+  margin: 20px 0;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  background: #003399;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background: #003399;
+}
+
+.links {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.links a {
+  color: #003399;
+}
+
+
+/* body::before {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(45deg, #20e3b2, #2cccff);
+  border-radius: 50%;
+  top: -100px;
+  right: 50px;
+  z-index: -1;
+}
+
+body::after {
+  content: "";
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background: #9C27B0;
+  border-radius: 50%;
+  bottom: -120px;
+  left: 50px;
+  z-index: -1;
+} */
